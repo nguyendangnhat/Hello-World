@@ -1,0 +1,377 @@
+
+.topnav {
+    height: 43px;
+  position:relative;
+  
+  font-size: 14px;
+  background-color:#669900;
+  color: #f1f1f1;
+  width:100%;
+  padding:0;
+  letter-spacing:1px;
+}
+
+.topnav2 {
+    margin: 0;
+    height: 53px;
+  position:relative;
+  font-size: 17px;
+  background-color:#669900;
+  color: #f1f1f1;
+  width:100%;
+  padding:0;
+  letter-spacing:1px;
+}
+
+
+
+.topnav a{
+  text-decoration:none;
+  padding:10px 15px 9px 15px;
+  border-bottom:none;
+  display:inline-block;
+  color: #f1f1f1;
+}
+
+
+.topnav2 a{
+  text-decoration:none;
+  padding:10px 15px 9px 15px;
+  border-bottom:none;
+  display:inline-block;
+  color: #f1f1f1;
+}
+
+
+.topnav p {
+  margin: 0px;
+  padding-top: 12px;
+  border-bottom:none;
+  text-align: center;
+  color: #f1f1f1;
+  height: 31px;
+}
+.topnav a:hover{
+  border-bottom:none;
+  background-color:#92CC00;
+  color:#ffffff;
+  text-decoration:none;
+}
+
+
+.topnav a.active {
+  background-color:#92CC00;
+  color:#ffffff;
+}
+
+
+a{
+    margin: 0px;
+}
+#openmenu{
+    
+    display: none;
+}
+#mainmenu{
+    display: block;
+}
+
+@media (max-width:768px){
+     #openmenu{
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 998;
+        width: 100%;
+}
+#mainmenu{
+    display: none;
+}
+
+}
+
+.home{
+    margin-top: 20px;
+    background: url(img/trangchu/iconhomeden.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+  
+}
+.home:hover{
+    background: url(img/trangchu/iconhome.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom:none;
+    background-color:#92CC00;
+    color:#ffffff;
+    text-decoration:none;
+}
+.home.active{
+    background: url(img/trangchu/iconhome.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom:none;
+    background-color:#92CC00;
+    color:#ffffff;
+    text-decoration:none;
+}
+.chuyentien{
+     margin-top: 20px;
+    background: url(img/trangchu/iconchuyentienden.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.chuyentien:hover{
+    background: url(img/trangchu/iconchuyentien.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom:none;
+    background-color:#92CC00;
+    color:#ffffff;
+    text-decoration:none;
+}
+.chuyentien.active{
+    background: url(img/trangchu/iconchuyentien.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom:none;
+    background-color:#92CC00;
+    color:#ffffff;
+    text-decoration:none;
+}
+
+.thanhtoan{
+     margin-top: 20px;
+    background: url(img/trangchu/thanhtoanden.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.thanhtoan:hover{
+    background: url(img/trangchu/thanhtoan.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom:none;
+    background-color:#92CC00;
+    color:#ffffff;
+    text-decoration:none;
+}
+.thanhtoan.active{
+    background: url(img/trangchu/thanhtoan.png); 
+    background-size: auto 40%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom:none;
+    background-color:#92CC00;
+    color:#ffffff;
+    text-decoration:none;
+}
+
+div{
+    margin: 0;
+}
+
+html { min-height: 100%; }
+
+body {
+  margin: 0;
+  min-height: inherit;
+}
+ [data-sidebar] {
+ display: none;
+ position: fixed;
+ height: 100%;
+ z-index: 100;
+}
+ [data-sidebar-overlay] {
+ display: none;
+ position: fixed;
+ top: 0;
+ left: 0;
+ opacity: 0;
+ width: 100%;
+ min-height: inherit;
+}
+
+/* Additional styles */
+
+
+aside { background-color: #669900;box-shadow: 0 6px 0 0 rgba(0,0,0,0.5);overflow: auto;  }
+aside  a { color:#fff; 
+           text-decoration:none;
+           display: block;
+           padding: 5px 10px 0px 20px;
+           
+}
+.overlay { background-color: #ddd; z-index: 999;}
+
+.padding { padding: 0;   width: 250px;}
+
+aside  a:hover { color:#fff; 
+           text-decoration:none;
+           background-color: #92CC00;
+}
+
+.padding1 {
+    background-color: #92CC00;
+    height: 120px;
+    margin-bottom: 3px;
+}
+
+.p{
+    z-index: 1000;
+}
+
+.lichsugiaodich{
+    height: 150px;
+    position:relative;
+    font-size: 17px;
+    margin: 7px;
+    background-color:#669900;
+    color: #f1f1f1;
+    padding:10px;
+}
+.lichsugiaodich p{
+}
+.lichsugiaodich h4{
+    padding-bottom: 5px;
+}
+.lichsugiaodich a{
+    float: right;
+    color: #f1f1f1;
+    text-decoration:none;
+}
+.lichsugiaodich a:hover{
+    float: right;
+    color: #ffffff;
+    text-decoration:none;
+}
+.divthanhtoan {
+    height: 120px;
+    font-size: 11px;
+    background-color:#92CC00;
+    color: #f1f1f1;
+    width: 100%;
+    display: block;
+    
+}
+
+.divthanhtoan:hover{
+   
+    background-color:#669900;
+   text-decoration:none;
+   color: #ffffff;
+}
+.divthanhtoan img{
+    margin: 15px;
+}
+
+.divchuyentien{
+    height: 80px;
+  position:relative;
+  font-size: 14px;
+  color: #669900;
+  width:100%;
+  padding:0;
+  border-bottom: 1px dashed #669900;
+}
+
+.divchuyentien img{
+    height: 60px;
+    margin: 10px 0 10px 15px;
+}
+.divchuyentien a{
+    background: url(img/chuyentien/araw.png); 
+    background-size: auto 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    height: 90px;
+    width: 50px;
+}
+.divchuyentien div{
+    display: inline;
+    position: absolute;
+    height: 90px;
+    margin-right: 50px;
+    margin-left: 5px;
+}
+
+#textbox{
+    width: 95%;
+	border: 2px solid #92CB00;
+}
+ .dct{
+    margin-top: 30px;
+    height: 30px;
+  position:relative;
+  font-size: 14px;
+  color: #669900;
+  width:100%;
+  padding:0;
+  border-bottom: 1px dashed #669900;
+}
+.dct p{
+    display: inline;
+    margin-left: 15px;
+}
+.dct a{
+    float: right;
+    margin-right: 40px;
+    color: #669900;
+}
+.dct a:hover{
+    color: #92CC00;
+    text-decoration: none;
+}
+
+.logo{
+    height: 75px;
+	border: 1px solid #92CB00;
+    color: #f1f1f1;
+    width: 100%;
+    display: block;
+}
+.logo:hover{
+    background-color:#669900;
+}
+
+.ntdt{
+    padding: 5px;
+    height: 30px;
+    background-color:#92CC00; 
+    color: #f1f1f1;
+    width: 100%;
+    display: block;
+}
+
+.input1{
+    background: url('../img/naptiendienthoai/icon dien thoai.png'); 
+    background-size: auto 90%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #EDF3E5;
+	font-size: 15px;
+	border: 2px solid #92CB00;
+	width:100%;
+    height: 30px;
+}
+.input2{
+    background: url(../img/naptiendienthoai/a.png); 
+    background-size: auto 45%;
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #EDF3E5;
+	font-size: 15px;
+	border: 2px solid #92CB00;
+	width:100%;
+    height: 30px;
+}

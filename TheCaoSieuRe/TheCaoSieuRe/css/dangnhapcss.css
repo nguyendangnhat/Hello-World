@@ -1,0 +1,59 @@
+.imagelogo{
+	width: 100%;
+	margin-top: 200px;
+}
+#divdangnhap{
+
+	margin-top: 50px;
+	height: 50px;
+}
+#taikhoan{
+	width:100%;
+	height: 80px;
+	background:url("../image/dangnhap/icon tai khoan.png") no-repeat 100% 50%;
+	text-align: center;
+	border: 2px solid #92CB00;
+	color: #92CB00;
+     font-size: 25px;
+}
+#divmatkhau{
+	margin-top: 50px;
+	height: 50px;
+    
+}
+#matkhau{
+	width:100%;
+	height: 80px;
+	background:url("../image/dangnhap/icon matkhau.png") no-repeat 100% 50%;
+	text-align: center;
+	border: 2px solid #92CB00;
+	color: #92CB00;
+    font-size: 25px;
+    
+}
+#divbtndangnhap{
+	margin-top: 35px;
+	height: 70px;
+}
+#btndangnhap{
+	background: #92CB00;
+	color: #fff;
+	width: 100%;
+	height: 100%;
+     font-size: 25px;
+}
+#divquenmatkhau{
+	margin-top: 50px;
+
+}
+#quenmatkhau{
+	color: #92CB00;
+     font-size: 25px;
+}
+#divdangkytaikhoan{
+	margin-top: 50px;
+     font-size: 25px;
+}
+#dangkytaikhoan{
+	color:#92CB00;
+}
